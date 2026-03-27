@@ -8,6 +8,7 @@ int main(){
 	var = 7;
 	sum = c + var;
 	int *ptr = &sum;
-	printf("ptr = %d\n", *ptr);
+	ptr = &sum;
+	printf("ptr = %d(at %p)\n", *ptr, ptr);
 	return 0;
 }
