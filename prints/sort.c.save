@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+	int nums[100];
+	int i, temp;
+	int size = sizeof(nums);
+	while((scanf("%d",&nums))!= EOF){
+
+	}
+	for(i=0;i<size; i++ ){
+	if (nums[0] <= nums[i]){
+		temp = nums[0];
+		nums[0] = nums[i];
+		nums[i] = temp;}
+	};
+
+}
